@@ -24,6 +24,11 @@ Instalasi
 | Sensor | DHT11 & Moisure |
 | Other Components | Jumper cable, Breadboard, & Casing  |
 
+## Hardware Design
+<img src="https://github.com/ainnajib2002/Sistem-Monitoring-Suhu-dan-Kelembaban-pada-Tanaman-dengan-Blynk-dan-ESP8266/blob/main/Skema_Rangkaian/Skema%20Rangkaian.png">
+
+<br><br>
+
 ## Langkah - Langkah Penggunaan
 1. Instal modul ESP8266 dan modul DHT11.
 2. Hubungkan modul ESP8266 dan modul DHT11 ke papan Arduino.
