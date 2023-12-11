@@ -10,8 +10,7 @@
 # Sistem Monitoring Suhu dan Kelembaban pada Tanaman dengan Blynk dan ESP8266
 
 ## Sistem Monitoring Suhu dan Kelembaban pada Tanaman dengan Blynk dan ESP8266
-Sistem ini digunakan untuk memantau suhu dan kelembaban pada tanaman. Sistem ini menggunakan modul ESP8266 untuk menghubungkan ke jaringan Wi-Fi dan modul DHT11 untuk membaca suhu dan kelembaban. Data suhu dan kelembaban kemudian dikirim ke server Blynk.
-Instalasi
+Sistem ini digunakan untuk memantau suhu dan kelembaban pada tanaman. Sistem ini menggunakan modul ESP8266 untuk menghubungkan ke jaringan Wi-Fi dengan modul DHT11 dan modul moisture untuk membaca suhu dan kelembaban. Data suhu dan kelembaban kemudian dikirim ke server Blynk.
 
 ## Alat dan Bahan
 | Media | Deskripsi |
@@ -36,27 +35,6 @@ Instalasi
 6. Buat proyek baru di aplikasi Blynk.
 7. Tambahkan widget Virtual Pin ke proyek.
 8. Atur Virtual Pin untuk menerima data suhu dan kelembaban.
-
-## Monitoring Tanaman
-<table>
-<tr>
-<th width="420">Tanaman dan Rangkaian Elektronik</th>
-<th width="420">Monitoring pada Blynk</th>
-</tr>
-<tr>
-<td><img src="https://user-images.githubusercontent.com/54527592/133962095-8baa3737-3bf0-4d6b-bc65-c0cff1c37021.jpg" alt="Tanaman-dan-Rangkaian-Elektronik"></td>
-<td><img src="https://user-images.githubusercontent.com/54527592/133962162-8856e20d-9e84-43c4-ac4a-0316d2c65004.jpg" alt="Monitoring pada Blynk"></td>
-</tr>
-</table>
-<table>
-<tr>
-<th colspan="2">Grafik</th>
-</tr>
-<tr>
-<td width="420"><img src="https://user-images.githubusercontent.com/54527592/133962195-70e38df7-8e56-422b-ba30-3b42a642c62b.JPG" alt="grafik1"></td>
-<td width="420"><img src="https://user-images.githubusercontent.com/54527592/133962202-2399d06a-4f97-4335-86b4-4c043d7d1d17.JPG" alt="grafik2"></td>
-</tr>
-</table>
 
 ## Arduino IDE
 ```bash
